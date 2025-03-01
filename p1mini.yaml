@@ -54,10 +54,10 @@ external_components:
   - source: components
 
 switch:
-  - platform: gpio
-    id: p1_rts             # Not needed if the RTS signal is not connected to a GPIO
-    pin:
-      number: D2
+#  - platform: gpio
+#    id: p1_rts             # Not needed if the RTS signal is not connected to a GPIO
+#    pin:
+#      number: D2
   - platform: gpio
     id: status_led
     pin:
